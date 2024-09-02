@@ -5,9 +5,9 @@ import "./App.css";
 import "./responsive.css"
 import './meanmenu.min.css'
 
-import Home from "./pages/home/home";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+import Home from "./pages/home/Home.jsx";
+import Header from "./components/header/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import Login from "./pages/login/Login";
 import Food from "./pages/food/Food";
 import ProdunctDetails from "./pages/productDetails/ProdunctDetails";
