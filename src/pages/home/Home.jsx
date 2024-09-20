@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import HeroBanner from './heroBanner/heroBanner.jsx';
 import FoodCategory from './foodCategory/FoodCategory';
 import ProductArea from './productArea/ProductArea';
 import DealArea from './dealArea/DealArea';
@@ -14,7 +13,6 @@ const Home = () => {
   }, []);
   return (
     <>
-    <HeroBanner />
     <FoodCategory />
     <ProductArea />
     <DealArea />
