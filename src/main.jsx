@@ -1,7 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import 'animate.css/animate.min.css'; // Import Animate.css
-import WOW from 'wowjs/dist/wow.js';
+import * as WOW from 'wowjs';
+
 import App from './App.jsx';
 import './index.css';
 
